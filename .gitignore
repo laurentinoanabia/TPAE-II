@@ -1,0 +1,27 @@
+# Dados brutos grandes (obter pelo script ou pelas instruções de data/raw/README.md)
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+
+# Dados com informação pessoal ou restritos
+docs/internos/
+*.sav
+*.dta
+respostas_brutas*
+*_identificado*
+
+# Credenciais
+.env
+*.key
+*.pem
+secrets*
+credentials*
+
+# Python / notebooks / sistema
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+Thumbs.db
+~$*
