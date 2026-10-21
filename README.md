@@ -14,9 +14,13 @@ Projeto aplicado de extensão da disciplina **PSAE00320 – Técnicas de Pesquis
 
 **CORECON-PB** (Conselho Regional de Economia da Paraíba), em parceria com estudantes de Ciências Econômicas da UFPB.
 
+Beneficiários: estudantes do ensino médio de João Pessoa e região metropolitana, alunos voluntários e professores envolvidos, e, indiretamente, as famílias e as instituições de ensino.
+
 ## Problema
 
-Estudantes do ensino médio chegam à vida adulta sem educação financeira, que não faz parte do currículo obrigatório das escolas. A ideia é uma iniciativa voluntária em que estudantes de Economia da UFPB, em parceria com o CORECON-PB, ensinem educação financeira no ensino médio. O foco do projeto é um **piloto em duas escolas de João Pessoa**: a Interactivo (particular) e uma escola pública, ainda a definir. Com duas escolas, a comparação é descritiva e não permite generalizar para a cidade.
+Estudantes do ensino médio chegam à vida adulta sem educação financeira, que não faz parte do currículo obrigatório das escolas. A ideia é uma iniciativa voluntária em que estudantes de Economia da UFPB, em parceria com o CORECON-PB, ensinem educação financeira no ensino médio. Hoje não há diagnóstico de quais escolas, quais conteúdos e que capacidade de voluntários existem para desenhar esse programa.
+
+O foco do projeto é um **piloto em duas escolas de João Pessoa**: a Interactivo (particular) e uma escola pública, ainda a definir. Com duas escolas, a comparação é descritiva e não permite generalizar para a cidade.
 
 ## Escolas do piloto
 
@@ -25,7 +29,26 @@ Estudantes do ensino médio chegam à vida adulta sem educação financeira, que
 
 ## Pergunta (Entrega 3, a ajustar ao novo foco)
 
-Que perfil de escolas, conteúdos e capacidade de voluntários deve orientar uma iniciativa de educação financeira conduzida por estudantes de Economia da UFPB, em parceria com o CORECON-PB? O plano original está em `docs/E03_equipe01_plano.pdf` e descreve um diagnóstico de várias escolas; o alinhamento com o novo foco deve ser combinado com o professor.
+Que perfil de escolas, conteúdos e capacidade de voluntários deve orientar uma iniciativa de educação financeira conduzida por estudantes de Economia da UFPB, em parceria com o CORECON-PB, em escolas de João Pessoa?
+
+Perguntas secundárias:
+
+1. Quais escolas, redes, etapas e bairros formam o público potencial e quantos estudantes cada uma atende?
+2. Que atividades de educação financeira as escolas já realizam e que temas gestores e professores consideram prioritários?
+3. Qual a disponibilidade de voluntários de Economia da UFPB (número, horas, interesse)?
+
+O plano original está em `docs/E03_equipe01_plano.pdf` e descreve um diagnóstico de várias escolas; o alinhamento com o novo foco (piloto em duas escolas) deve ser combinado com o professor.
+
+## Objetivo
+
+Produzir um diagnóstico exploratório que oriente o desenho de um programa piloto voluntário de educação financeira em escolas de João Pessoa, vinculado ao CORECON-PB e à UFPB.
+
+Objetivos específicos:
+
+1. Mapear as escolas por rede, etapa, bairro e matrículas, identificando candidatas a piloto.
+2. Levantar com gestores e professores as atividades existentes e os temas prioritários.
+3. Estimar a capacidade de voluntários de Economia da UFPB.
+4. Propor o desenho do piloto e validá-lo com o CORECON-PB.
 
 ## Fontes
 
@@ -33,13 +56,20 @@ Inventário completo em [`docs/inventario_fontes.md`](docs/inventario_fontes.md)
 
 | ID | Fonte | Uso |
 |---|---|---|
-| F1 | Censo Escolar (INEP) | Matrículas e rede das duas escolas |
+| F1 | Censo Escolar (INEP) | Lista de escolas, rede, etapa e matrículas das duas escolas |
 | F2 | Catálogo de Escolas (INEP) | Cadastro, código INEP e escolha da escola pública |
 | F3 | Ideb por escola (INEP) | Contexto de aprendizagem da escola pública |
 | F4 | PISA 2022 (OCDE) | Referência nacional de letramento financeiro |
-| F5 | Autorizações das escolas e da secretaria da rede pública | Acesso e calendário |
-| F6 a F8 | Questionários próprios (estudantes, direção/professores, voluntários) | Oferta, temas, conhecimento e capacidade voluntária |
-| F9 | CORECON-PB | Apoio institucional e materiais |
+| F5 | Autorizações das escolas e das Secretarias de Educação (municipal e estadual) | Contatos, acesso, autorização para a pesquisa e calendário |
+| F6 a F8 | Questionários próprios (estudantes, direção/professores, voluntários) | Oferta atual, temas prioritários, conhecimento e capacidade voluntária |
+| F9 | CORECON-PB | Materiais, parcerias e apoio institucional |
+
+Fontes complementares previstas no plano da Entrega 3 (ainda sem ID no inventário):
+
+| Fonte | Uso |
+|---|---|
+| Censo 2022 (IBGE) | Perfil socioeconômico do entorno por bairro ou setor |
+| ENEF e BNCC | Referências de conteúdo de educação financeira |
 
 Unidades, chaves e junções: [`docs/unidades_chaves.md`](docs/unidades_chaves.md). Dicionário: [`docs/dicionario_preliminar.md`](docs/dicionario_preliminar.md). Aquisição: [`docs/plano_aquisicao.md`](docs/plano_aquisicao.md). Tarefas: [`docs/tarefas.md`](docs/tarefas.md).
 
@@ -69,11 +99,13 @@ Nunca versionar senhas, tokens, chaves, dados pessoais, documentos internos ou b
 
 ## Situação atual
 
-- **Entrega 3 (01/10/2026):** definição do problema e plano de pesquisa.
+- **Entrega 3 (01/10/2026):** definição do problema e plano de pesquisa concluídos. O plano completo está em `docs/E03_equipe01_plano.pdf`.
 - **Entrega 4 (20/10/2026):** repositório e plano de dados.
-- Próximos passos: escolher a escola pública, falar com as direções, enviar ofício à secretaria, elaborar os instrumentos.
+- Próximos passos: escolher a escola pública, falar com as direções, enviar ofício à secretaria, elaborar os questionários e termos de autorização.
 - **Entrega final:** 15/12/2026.
 
 ## Contato acadêmico
 
-Prof. Alessio · Curso de Ciências Econômicas, UFPB. Contato central da equipe: Ana Beatriz (laurentino.anabia@gmail.com).
+Prof. Alessio · Curso de Ciências Econômicas, Universidade Federal da Paraíba (UFPB)
+
+Ana Beatriz (laurentino.anabia@gmail.com) como contato central para melhor organização.
